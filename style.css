@@ -1,28 +1,4 @@
-@font-face {
-    font-family: 'an_unfortunate_eventregular';
-    src: url('anune___-webfont.woff2') format('woff2'),
-         url('anune___-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
-@font-face {
-    font-family: 'overexposedregular';
-    src: url('x-files-webfont.woff2') format('woff2'),
-         url('x-files-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'jmh_typewriterregular';
-    src: url('jmh_typewriter-webfont.woff2') format('woff2'),
-         url('jmh_typewriter-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
 }
 
@@ -30,17 +6,23 @@
     text-align: center;
 }
 h1 {
-    font-family: "An Unfortunate Event", sans-serif;
+    font-family: 'an_unfortunate_eventregular';
+    src: url('anune___-webfont.woff2') format('woff2'),
+         url('anune___-webfont.woff') format('woff');
 	font-size: 40px;
 }
 
 h2 {
-    font-family: "x-files", sans-serif;
+    font-family: 'overexposedregular';
+    src: url('x-files-webfont.woff2') format('woff2'),
+         url('x-files-webfont.woff') format('woff');
 	font-size: 40px;
 }
 
 h3 {
-    font-family: "JMH Typewriter", sans-serif;
+    font-family: 'jmh_typewriterregular';
+    src: url('jmh_typewriter-webfont.woff2') format('woff2'),
+         url('jmh_typewriter-webfont.woff') format('woff');
 	font-size: 30px;
 }
 
