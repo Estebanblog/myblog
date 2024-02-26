@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'an_unfortunate_eventregular';
+    src: url('anune___-webfont.woff2') format('woff2'),
+         url('anune___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'overexposedregular';
+    src: url('x-files-webfont.woff2') format('woff2'),
+         url('x-files-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'jmh_typewriterregular';
+    src: url('jmh_typewriter-webfont.woff2') format('woff2'),
+         url('jmh_typewriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .centered-text {
     text-align: center;
 }
