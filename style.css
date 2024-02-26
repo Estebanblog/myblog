@@ -1,0 +1,47 @@
+.centered-text {
+    text-align: center;
+}
+h1 {
+    font-family: "An Unfortunate Event", sans-serif;
+	font-size: 40px;
+}
+
+h2 {
+    font-family: "x-files", sans-serif;
+	font-size: 40px;
+}
+
+h3 {
+    font-family: "JMH Typewriter", sans-serif;
+	font-size: 30px;
+}
+
+h4 {
+    font-family: "x-files", sans-serif;
+	font-size: 23px;
+}
+
+
+button {
+            display: inline-block; /* Affiche les boutons en ligne */
+            margin: 0 10px; /* Ajoute de l'espace entre les boutons */
+	width: 150px; /* Largeur du bouton */
+            height: 50px; /* Hauteur du bouton */
+            font-size: 20px; /* Taille de police du texte du bouton */
+	background-color: white; /* Fond blanc */
+            color: black; /* Texte noir */
+	font-family: x-files, sans-serif; /* Police du texte */
+}
+
+  button:hover {
+            background-color: black; /* Fond noir au survol */
+            color: white; /* Texte blanc au survol */
+	  font-family: x-files, sans-serif; /* Police du texte */
+        }
+
+#blog {
+    max-width: 75%; /* Utilisation d'une largeur maximale en pourcentage */
+    margin: 0 auto;
+    text-align: center;
+    align-content: center; /* Cette propriété n'est pas nécessaire ici */
+}
